@@ -1,0 +1,16 @@
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Utilities\bin\Debug\netcoreapp3.1\OrderManagement.Utilities.deps.json
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Utilities\bin\Debug\netcoreapp3.1\OrderManagement.Utilities.dll
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Utilities\bin\Debug\netcoreapp3.1\OrderManagement.Utilities.pdb
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Utilities\obj\Debug\netcoreapp3.1\OrderManagement.Utilities.AssemblyInfoInputs.cache
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Utilities\obj\Debug\netcoreapp3.1\OrderManagement.Utilities.AssemblyInfo.cs
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Utilities\obj\Debug\netcoreapp3.1\OrderManagement.Utilities.dll
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Utilities\obj\Debug\netcoreapp3.1\OrderManagement.Utilities.pdb
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Utilities\obj\Debug\netcoreapp3.1\OrderManagement.Utilities.csprojAssemblyReference.cache
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Utilities\bin\Debug\netcoreapp3.1\OrderManagement.Utilities.deps.json
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Utilities\bin\Debug\netcoreapp3.1\OrderManagement.Utilities.dll
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Utilities\bin\Debug\netcoreapp3.1\OrderManagement.Utilities.pdb
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Utilities\obj\Debug\netcoreapp3.1\OrderManagement.Utilities.csprojAssemblyReference.cache
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Utilities\obj\Debug\netcoreapp3.1\OrderManagement.Utilities.AssemblyInfoInputs.cache
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Utilities\obj\Debug\netcoreapp3.1\OrderManagement.Utilities.AssemblyInfo.cs
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Utilities\obj\Debug\netcoreapp3.1\OrderManagement.Utilities.dll
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Utilities\obj\Debug\netcoreapp3.1\OrderManagement.Utilities.pdb

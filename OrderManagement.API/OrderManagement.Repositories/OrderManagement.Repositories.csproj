@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrderManagement.DBEntities\OrderManagement.DBEntities.csproj" />
+    <ProjectReference Include="..\OrderManagement.Models\OrderManagement.Models.csproj" />
+  </ItemGroup>
+
+</Project>

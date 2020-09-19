@@ -1,0 +1,564 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.API\\OrderManagement.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.API\\OrderManagement.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.API\\OrderManagement.API.csproj",
+        "projectName": "OrderManagement.API",
+        "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.API\\OrderManagement.API.csproj",
+        "packagesPath": "C:\\Users\\mchada\\.nuget\\packages\\",
+        "outputPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mchada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.BusinessContracts\\OrderManagement.BusinessContracts.csproj": {
+                "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.BusinessContracts\\OrderManagement.BusinessContracts.csproj"
+              },
+              "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Constants\\OrderManagement.Constants.csproj": {
+                "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Constants\\OrderManagement.Constants.csproj"
+              },
+              "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.DBEntities\\OrderManagement.DBEntities.csproj": {
+                "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.DBEntities\\OrderManagement.DBEntities.csproj"
+              },
+              "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Repositories\\OrderManagement.Repositories.csproj": {
+                "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Repositories\\OrderManagement.Repositories.csproj"
+              },
+              "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Services\\OrderManagement.Services.csproj": {
+                "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Services\\OrderManagement.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUi": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.BusinessContracts\\OrderManagement.BusinessContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.BusinessContracts\\OrderManagement.BusinessContracts.csproj",
+        "projectName": "OrderManagement.BusinessContracts",
+        "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.BusinessContracts\\OrderManagement.BusinessContracts.csproj",
+        "packagesPath": "C:\\Users\\mchada\\.nuget\\packages\\",
+        "outputPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.BusinessContracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mchada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.DBEntities\\OrderManagement.DBEntities.csproj": {
+                "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.DBEntities\\OrderManagement.DBEntities.csproj"
+              },
+              "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Models\\OrderManagement.Models.csproj": {
+                "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Models\\OrderManagement.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Constants\\OrderManagement.Constants.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Constants\\OrderManagement.Constants.csproj",
+        "projectName": "OrderManagement.Constants",
+        "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Constants\\OrderManagement.Constants.csproj",
+        "packagesPath": "C:\\Users\\mchada\\.nuget\\packages\\",
+        "outputPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Constants\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mchada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.DBEntities\\OrderManagement.DBEntities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.DBEntities\\OrderManagement.DBEntities.csproj",
+        "projectName": "OrderManagement.DBEntities",
+        "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.DBEntities\\OrderManagement.DBEntities.csproj",
+        "packagesPath": "C:\\Users\\mchada\\.nuget\\packages\\",
+        "outputPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.DBEntities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mchada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Models\\OrderManagement.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Models\\OrderManagement.Models.csproj",
+        "projectName": "OrderManagement.Models",
+        "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Models\\OrderManagement.Models.csproj",
+        "packagesPath": "C:\\Users\\mchada\\.nuget\\packages\\",
+        "outputPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mchada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Repositories\\OrderManagement.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Repositories\\OrderManagement.Repositories.csproj",
+        "projectName": "OrderManagement.Repositories",
+        "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Repositories\\OrderManagement.Repositories.csproj",
+        "packagesPath": "C:\\Users\\mchada\\.nuget\\packages\\",
+        "outputPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mchada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.DBEntities\\OrderManagement.DBEntities.csproj": {
+                "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.DBEntities\\OrderManagement.DBEntities.csproj"
+              },
+              "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Models\\OrderManagement.Models.csproj": {
+                "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Models\\OrderManagement.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Services\\OrderManagement.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Services\\OrderManagement.Services.csproj",
+        "projectName": "OrderManagement.Services",
+        "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Services\\OrderManagement.Services.csproj",
+        "packagesPath": "C:\\Users\\mchada\\.nuget\\packages\\",
+        "outputPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mchada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.BusinessContracts\\OrderManagement.BusinessContracts.csproj": {
+                "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.BusinessContracts\\OrderManagement.BusinessContracts.csproj"
+              },
+              "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Repositories\\OrderManagement.Repositories.csproj": {
+                "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Repositories\\OrderManagement.Repositories.csproj"
+              },
+              "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Validations\\OrderManagement.Validations.csproj": {
+                "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Validations\\OrderManagement.Validations.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Validations\\OrderManagement.Validations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Validations\\OrderManagement.Validations.csproj",
+        "projectName": "OrderManagement.Validations",
+        "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Validations\\OrderManagement.Validations.csproj",
+        "packagesPath": "C:\\Users\\mchada\\.nuget\\packages\\",
+        "outputPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Validations\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mchada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.BusinessContracts\\OrderManagement.BusinessContracts.csproj": {
+                "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.BusinessContracts\\OrderManagement.BusinessContracts.csproj"
+              },
+              "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Constants\\OrderManagement.Constants.csproj": {
+                "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Constants\\OrderManagement.Constants.csproj"
+              },
+              "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Models\\OrderManagement.Models.csproj": {
+                "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Models\\OrderManagement.Models.csproj"
+              },
+              "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Repositories\\OrderManagement.Repositories.csproj": {
+                "projectPath": "C:\\Madhukar\\OM\\Application\\OrderManagement.API\\OrderManagement.Repositories\\OrderManagement.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

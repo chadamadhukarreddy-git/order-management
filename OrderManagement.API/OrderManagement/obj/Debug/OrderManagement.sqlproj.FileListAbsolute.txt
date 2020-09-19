@@ -1,0 +1,12 @@
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement\bin\Debug\OrderManagement.dacpac
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement\bin\Debug\OrderManagement.dll
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement\bin\Debug\OrderManagement.pdb
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement\obj\Debug\OrderManagement.dll
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement\obj\Debug\OrderManagement.pdb
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement\obj\Debug\OrderManagement.sqlprojAssemblyReference.cache
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement\bin\Debug\OrderManagement.dacpac
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement\bin\Debug\OrderManagement.dll
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement\bin\Debug\OrderManagement.pdb
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement\obj\Debug\OrderManagement.sqlprojAssemblyReference.cache
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement\obj\Debug\OrderManagement.dll
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement\obj\Debug\OrderManagement.pdb

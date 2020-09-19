@@ -1,0 +1,26 @@
+﻿CREATE TABLE [dbo].[Address] (
+    [AddressId]       BIGINT        IDENTITY (1, 1) NOT NULL,
+    [UserId]          BIGINT        NULL,
+    [AddressTypeId]   INT           NULL,
+    [AddressLine1]    VARCHAR (150) NULL,
+    [AddressLine2]    VARCHAR (150) NULL,
+    [City]            VARCHAR (100) NULL,
+    [StateId]         INT           NULL,
+    [CountryId]       INT           NULL,
+    [Email]           VARCHAR (100) NULL,
+    [AlternateEmail]  VARCHAR (100) NULL,
+    [Mobile]          VARCHAR (16)  NOT NULL,
+    [AlternateMobile] VARCHAR (16)  NULL,
+    [HomePhone]       VARCHAR (16)  NULL,
+    [WorkPhone]       VARCHAR (16)  NULL,
+    [PinCode]         INT           NULL,
+    [IsActive]        BIT           CONSTRAINT [DF_Address_IsActive] DEFAULT ((1)) NOT NULL,
+    [CreatedBy]       BIGINT        NULL,
+    [CreatedDate]     DATETIME      CONSTRAINT [DF_Address_CreatedDate] DEFAULT (getdate()) NOT NULL,
+    [UpdatedBy]       BIGINT        NULL,
+    [UpdatedDate]     DATETIME      NULL,
+    CONSTRAINT [PK_Address_AddressId] PRIMARY KEY CLUSTERED ([AddressId] ASC),
+    CONSTRAINT [FK_Address_AddressTypeId] FOREIGN KEY ([AddressTypeId]) REFERENCES [dbo].[AddressType] ([AddressTypeId]),
+    CONSTRAINT [FK_Address_UserId] FOREIGN KEY ([UserId]) REFERENCES [dbo].[User] ([UserId])
+);
+

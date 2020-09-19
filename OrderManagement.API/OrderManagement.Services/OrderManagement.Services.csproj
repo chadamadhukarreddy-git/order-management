@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrderManagement.BusinessContracts\OrderManagement.BusinessContracts.csproj" />
+    <ProjectReference Include="..\OrderManagement.Repositories\OrderManagement.Repositories.csproj" />
+    <ProjectReference Include="..\OrderManagement.Validations\OrderManagement.Validations.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Constants\bin\Debug\netcoreapp3.1\OrderManagement.Constants.deps.json
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Constants\bin\Debug\netcoreapp3.1\OrderManagement.Constants.dll
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Constants\bin\Debug\netcoreapp3.1\OrderManagement.Constants.pdb
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Constants\obj\Debug\netcoreapp3.1\OrderManagement.Constants.AssemblyInfoInputs.cache
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Constants\obj\Debug\netcoreapp3.1\OrderManagement.Constants.AssemblyInfo.cs
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Constants\obj\Debug\netcoreapp3.1\OrderManagement.Constants.dll
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Constants\obj\Debug\netcoreapp3.1\OrderManagement.Constants.pdb
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Constants\obj\Debug\netcoreapp3.1\OrderManagement.Constants.csprojAssemblyReference.cache
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Constants\bin\Debug\netcoreapp3.1\OrderManagement.Constants.deps.json
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Constants\bin\Debug\netcoreapp3.1\OrderManagement.Constants.dll
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Constants\bin\Debug\netcoreapp3.1\OrderManagement.Constants.pdb
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Constants\obj\Debug\netcoreapp3.1\OrderManagement.Constants.csprojAssemblyReference.cache
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Constants\obj\Debug\netcoreapp3.1\OrderManagement.Constants.AssemblyInfoInputs.cache
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Constants\obj\Debug\netcoreapp3.1\OrderManagement.Constants.AssemblyInfo.cs
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Constants\obj\Debug\netcoreapp3.1\OrderManagement.Constants.dll
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Constants\obj\Debug\netcoreapp3.1\OrderManagement.Constants.pdb

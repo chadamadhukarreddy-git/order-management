@@ -1,0 +1,16 @@
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Models\bin\Debug\netcoreapp3.1\OrderManagement.Models.deps.json
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Models\bin\Debug\netcoreapp3.1\OrderManagement.Models.dll
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Models\bin\Debug\netcoreapp3.1\OrderManagement.Models.pdb
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Models\obj\Debug\netcoreapp3.1\OrderManagement.Models.AssemblyInfoInputs.cache
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Models\obj\Debug\netcoreapp3.1\OrderManagement.Models.AssemblyInfo.cs
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Models\obj\Debug\netcoreapp3.1\OrderManagement.Models.dll
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Models\obj\Debug\netcoreapp3.1\OrderManagement.Models.pdb
+C:\Madhukar\OM\Application\OrderManagement.API\OrderManagement.Models\obj\Debug\netcoreapp3.1\OrderManagement.Models.csprojAssemblyReference.cache
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Models\bin\Debug\netcoreapp3.1\OrderManagement.Models.deps.json
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Models\bin\Debug\netcoreapp3.1\OrderManagement.Models.dll
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Models\bin\Debug\netcoreapp3.1\OrderManagement.Models.pdb
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Models\obj\Debug\netcoreapp3.1\OrderManagement.Models.csprojAssemblyReference.cache
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Models\obj\Debug\netcoreapp3.1\OrderManagement.Models.AssemblyInfoInputs.cache
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Models\obj\Debug\netcoreapp3.1\OrderManagement.Models.AssemblyInfo.cs
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Models\obj\Debug\netcoreapp3.1\OrderManagement.Models.dll
+C:\Madhukar\MyGit\order-management\OrderManagement.API\OrderManagement.Models\obj\Debug\netcoreapp3.1\OrderManagement.Models.pdb
